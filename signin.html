@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Sri Annapoorna Jewellers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="auth-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="rates">
+                <span>Gold Rate: ₹5,800/g</span>
+                <span>Silver Rate: ₹75/g</span>
+            </div>
+        </div>
+        
+        <div class="logo-container">
+            <h1>Sri Annapoorna Jewellers</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gold.html">Gold</a></li>
+                <li><a href="silver.html">Silver</a></li>
+                <li><a href="diamonds.html">Diamonds</a></li>
+                <li><a href="platinum.html">Platinum</a></li>
+                <li><a href="index.html#special-offers">Special Offers</a></li>
+                <li><a href="index.html#combo-offers">Combo Offers</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sign In Section -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-container">
+                <div class="auth-image">
+                    <div class="auth-overlay">
+                        <h2>Welcome Back</h2>
+                        <p>Sign in to access your account and explore our exclusive jewelry collections.</p>
+                    </div>
+                </div>
+                <div class="auth-form">
+                    <h2>Sign In</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="input-with-icon">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="password" placeholder="Enter your password" required>
+                            </div>
+                        </div>
+                        <div class="form-options">
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember">
+                                <label for="remember">Remember me</label>
+                            </div>
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="auth-button">Sign In</button>
+                        <div class="auth-divider">
+                            <span>OR</span>
+                        </div>
+                        <div class="social-auth">
+                            <button type="button" class="social-auth-button google">
+                                <i class="fab fa-google"></i> Sign in with Google
+                            </button>
+                            <button type="button" class="social-auth-button facebook">
+                                <i class="fab fa-facebook-f"></i> Sign in with Facebook
+                            </button>
+                        </div>
+                        <div class="auth-redirect">
+                            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 103B Bazzar Street, Perambalur </p>
+                    <p><i class="fas fa-phone"></i> +91 9976431519</p>
+                    <p><i class="fas fa-envelope"></i> info@sriannapoornajewellers.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates on new collections and special offers.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 1994 Sri Annapoorna Jewellers. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
